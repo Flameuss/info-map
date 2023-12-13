@@ -19,7 +19,7 @@ Application {
   project = "campo.tview",
   base = "roadmap",
   description = description,
-  output = "/opt/lampp/htdocs/new-webmapping/map/site2",
+  output = "/opt/lampp/htdocs/new-webmapping/info-02/site",
   order = { "Points" },
   template = { navbar = "darkblue", title = "white" },
   display = false,

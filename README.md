@@ -1,0 +1,1 @@
+To run the info click [here](https://pedro-andrade-inpe.github.io/nexus/areasDeEstudo/index.html).
