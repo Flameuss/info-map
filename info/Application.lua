@@ -19,7 +19,7 @@ Application {
   project = "info.tview",
   base = "roadmap",
   description = description,
-  output = "/opt/lampp/htdocs/new-webmapping/info/site",
+  output = "/opt/lampp/htdocs/new-webmapping/info/siteinfo",
   order = { "Points" },
   template = { navbar = "darkblue", title = "white" },
   display = false,
