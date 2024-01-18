@@ -32,12 +32,14 @@ Application {
 
     report = function(cell)
       local report = Report {
-        title = cell.Local,
+        title = "Coleta de solo de ".. cell.Local,
+        author = "NEXUS"
       }
 
-      Descricao = [[<h3>Descrição:</h3> input description here!]]
+      local text
+      -- Descricao = [[<h3>Descrição:</h3> input description here!]]
 
-      local text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. "."
+      text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. "."
 
       report:addText(text)
       -- report:addImage("photos/"..cell.Fotografia..".jpg")
