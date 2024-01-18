@@ -40,7 +40,7 @@ Application {
       text = "Local: " ..cell.Local.."."
 
       report:addText(text)
-      report:addImage("photos/"..cell.Image..".jpg")
+      report:addImage("photos/"..cell.Image..".png")
 
 
       return report
