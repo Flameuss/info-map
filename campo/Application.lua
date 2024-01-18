@@ -7,7 +7,7 @@ description = [[
 ]]
 
 Project {
-  title = "CAMPO",
+  title = "site campo",
   author = "NEXUS",
   file = "campo.tview",
   clean = true,
