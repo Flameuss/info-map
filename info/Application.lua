@@ -7,7 +7,7 @@ description = [[
 ]]
 
 Project {
-  title = "site info",
+  title = "site-info",
   author = "NEXUS",
   file = "info.tview",
   clean = true,
@@ -32,12 +32,12 @@ Application {
 
     report = function(cell)
       local mreport = Report {
-            title = "Coleta de solo de ".. cell.Local,
+            title = "Coleta de solo de ",
             author = "NEXUS",
       }
 
-      local text = ""
       -- Descricao = [[<h3>Descrição:</h3> input description here!]]
+      local text = ""
 
       text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. "."
 
