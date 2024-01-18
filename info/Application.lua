@@ -32,7 +32,7 @@ Application {
 
     report = function(cell)
       local report = Report {
-        title = cell.titulo,
+        title = cell.Local,
       }
 
       Descricao = [[<h3>Descrição:</h3> input description here!]]

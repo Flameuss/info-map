@@ -19,7 +19,7 @@ Application {
   project = "info.tview",
   base = "roadmap",
   description = description,
-  output = "/opt/lampp/htdocs/new-webmapping/map/site",
+  output = "/opt/lampp/htdocs/new-webmapping/info/siteinfo",
   order = { "Points" },
   template = { navbar = "darkblue", title = "white" },
   display = false,
@@ -32,7 +32,7 @@ Application {
 
     report = function(cell)
       local report = Report {
-        title = cell.titulo,
+        title = cell.Local,
       }
 
       Descricao = [[<h3>Descrição:</h3> input description here!]]
