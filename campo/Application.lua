@@ -3,7 +3,7 @@ import("publish")
 
 
 description = [[
-  input text here!
+  teste site campo!
 ]]
 
 Project {
@@ -34,10 +34,10 @@ Application {
       local report = Report {
         title = cell.titulo,
       }
+      local text = ""
+      -- Descricao = [[<h3>Descrição:</h3> input description here!]]
 
-      Descricao = [[<h3>Descrição:</h3> input description here!]]
-
-      local text = "Local: " ..cell.Local.."."
+      text = "Local: " ..cell.Local.."."
 
       report:addText(text)
       report:addImage("photos/"..cell.Image..".jpg")

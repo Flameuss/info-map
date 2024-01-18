@@ -3,23 +3,23 @@ import("publish")
 
 
 description = [[
-  input text here!
+  teste site campo!
 ]]
 
 Project {
-  title = "INFO",
+  title = "CAMPO",
   author = "NEXUS",
-  file = "info.tview",
+  file = "campo.tview",
   clean = true,
-  Points = "info.shp",
+  Points = "campo.shp",
 }
 
 Application {
   key = "AIzaSyA1coAth-Bo7m99rnxOm2oOBB88AmaSbOk",
-  project = "info.tview",
+  project = "campo.tview",
   base = "roadmap",
   description = description,
-  output = "/opt/lampp/htdocs/new-webmapping/map/site",
+  output = "/opt/lampp/htdocs/new-webmapping/campo/sitecampo",
   order = { "Points" },
   template = { navbar = "darkblue", title = "white" },
   display = false,
@@ -34,13 +34,13 @@ Application {
       local report = Report {
         title = cell.titulo,
       }
+      local text = ""
+      -- Descricao = [[<h3>Descrição:</h3> input description here!]]
 
-      Descricao = [[<h3>Descrição:</h3> input description here!]]
-
-      local text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. "."
+      text = "Local: " ..cell.Local.."."
 
       report:addText(text)
-      -- report:addImage("photos/"..cell.Fotografia..".jpg")
+      report:addImage("photos/"..cell.Image..".jpg")
 
 
       return report
