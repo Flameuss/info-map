@@ -3,11 +3,11 @@ import("publish")
 
 
 description = [[
-  input text here!
+  descrição do site info!!
 ]]
 
 Project {
-  title = "INFO",
+  title = "site info",
   author = "NEXUS",
   file = "info.tview",
   clean = true,
@@ -25,27 +25,27 @@ Application {
   display = false,
 
   Points = View {
-    description = "Coberturas",
+    description = "Cobertura",
     select = "Local",
     icon = "flag",
     label = "locais",
 
     report = function(cell)
-      local report = Report {
-        title = "Coleta de solo de ".. cell.Local,
-        author = "NEXUS"
+      local mreport = Report {
+            title = "Coleta de solo de ".. cell.Local,
+            author = "NEXUS",
       }
 
-      local text
+      local text = ""
       -- Descricao = [[<h3>Descrição:</h3> input description here!]]
 
       text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. "."
 
-      report:addText(text)
-      -- report:addImage("photos/"..cell.Fotografia..".jpg")
+      mreport:addText(text)
+      -- mreport:addImage("photos/"..cell.Fotografia..".jpg")
 
 
-      return report
+      return mreport
     end
   }
 }
