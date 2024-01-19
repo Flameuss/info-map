@@ -9,14 +9,14 @@ description = [[
 Project {
   title = "site campo",
   author = "NEXUS",
-  file = "campo.tview",
+  file = "campo002.tview",
   clean = true,
-  Points = "campo-02.shp",
+  Points = "campo-002.shp",
 }
 
 Application {
   key = "AIzaSyA1coAth-Bo7m99rnxOm2oOBB88AmaSbOk",
-  project = "campo.tview",
+  project = "campo002.tview",
   base = "roadmap",
   description = description,
   output = "/home/luis/Ti/Inpe/new-webmapping/campo/sitecampo",
