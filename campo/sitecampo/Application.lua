@@ -7,7 +7,7 @@ description = [[
 ]]
 
 Project {
-  title = "CAMPO",
+  title = "site campo",
   author = "NEXUS",
   file = "campo.tview",
   clean = true,
@@ -19,7 +19,7 @@ Application {
   project = "campo.tview",
   base = "roadmap",
   description = description,
-  output = "/opt/lampp/htdocs/new-webmapping/campo/sitecampo",
+  output = "/home/luis/Ti/Inpe/new-webmapping/campo/sitecampo",
   order = { "Points" },
   template = { navbar = "darkblue", title = "white" },
   display = false,
@@ -32,12 +32,12 @@ Application {
 
     report = function(cell)
       local report = Report {
-        title = cell.titulo,
+            title = cell.titulo,
       }
       local text = ""
       -- Descricao = [[<h3>Descrição:</h3> input description here!]]
 
-      text = "Local: " ..cell.Local.."."
+      text = "Local: " ..cell.Local..", id: "..cell.fid.."."
 
       report:addText(text)
       report:addImage("photos/"..cell.Image..".png")
