@@ -2,9 +2,9 @@
 "type": "FeatureCollection",
 "name": "Points",
 "features": [
-{ "type": "Feature", "properties": { "image": "CG-02", "Local": "Campina Grande" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.976241, -7.28063 ] ] } },
-{ "type": "Feature", "properties": { "image": "CG-03", "Local": "Campina Grande" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.9762431, -7.2806479 ] ] } },
-{ "type": "Feature", "properties": { "image": "CG-01", "Local": "Campina Grande" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.9762827, -7.2792104 ] ] } },
+{ "type": "Feature", "properties": { "image": "CG-02", "Local": "Campina Grande" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.9593327, -7.2811584 ] ] } },
+{ "type": "Feature", "properties": { "image": "CG-03", "Local": "Campina Grande" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.9759789, -7.2929989 ] ] } },
+{ "type": "Feature", "properties": { "image": "CG-01", "Local": "Campina Grande" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.9802455, -7.2713506 ] ] } },
 { "type": "Feature", "properties": { "image": "BAR-03", "Local": "Barreiras" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -45.0221933, -12.147099 ] ] } }
 ]
 }
