@@ -2,12 +2,12 @@ import("publish")
 
 
 description = [[
-  teste site campo  teste 01!
+  teste site campo  teste 02!
 ]]
 
 Application {
   key = "AIzaSyA1coAth-Bo7m99rnxOm2oOBB88AmaSbOk",
-  project = "campo002.tview",
+  project = "campo001.tview",
   base = "roadmap",
   description = description,
   output = "/home/luis/Ti/Inpe/new-webmapping/campo/sitecampo",

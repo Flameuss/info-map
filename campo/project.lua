@@ -3,7 +3,7 @@ import("gis")
 Project {
   title = "site campo",
   author = "NEXUS",
-  file = "campo002.tview",
+  file = "campo001.tview",
   clean = true,
-  points = "campo-002.shp",
+  points = "campo-001.shp",
 }
