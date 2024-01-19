@@ -6,7 +6,7 @@
   <Author>NEXUS</Author>
 
   <te_da:DataSourceList xmlns:te_common="http://www.terralib.org/schemas/common">
-    <te_da:DataSource access_driver="OGR" id="3f1b979d-5e28-4e32-8809-b9d5390583cd" type="OGR">
+    <te_da:DataSource access_driver="OGR" id="b1a09ab1-53f5-40f9-b789-a0074322814f" type="OGR">
       <te_da:Title>points</te_da:Title>
       <te_da:Description>Created on TerraME</te_da:Description>
       <te_da:URI>file%3A%2F%2F%2Fhome%2Fluis%2FTi%2FInpe%2Fnew-webmapping%2Fcampo%2Fcampo-002.shp</te_da:URI>
@@ -16,17 +16,17 @@
   <ComponentList/>
 
   <te_map:LayerList>
-    <te_map:DataSetLayer id="012a82e2-a0fc-4fec-8d0a-5092ef6a68f2">
+    <te_map:DataSetLayer id="1e8ddf10-775c-45a5-a5d2-c524c8fb109c">
       <te_map:Title>points</te_map:Title>
       <te_map:Visible>NOT_VISIBLE</te_map:Visible>
       <te_map:Encoding>ISO-8859-1</te_map:Encoding>
       <te_map:DataSetName>campo-002</te_map:DataSetName>
-      <te_map:DataSourceId>3f1b979d-5e28-4e32-8809-b9d5390583cd</te_map:DataSourceId>
+      <te_map:DataSourceId>b1a09ab1-53f5-40f9-b789-a0074322814f</te_map:DataSourceId>
       <te_map:SRSInfo>
         <te_map:SRID>4674</te_map:SRID>
         <te_map:Proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</te_map:Proj4>
       </te_map:SRSInfo>
-      <te_map:Extent llx="-45.022194504986452" lly="-12.147099554212824" urx="-35.967511829027423" ury="-7.2697948935542547"/>
+      <te_map:Extent llx="-45.022194504986452" lly="-12.147099554212824" urx="-35.902652550196208" ury="-7.1756102381435438"/>
       <te_map:RendererId>ABSTRACT_LAYER_RENDERER</te_map:RendererId>
       <te_map:CompositionMode>0</te_map:CompositionMode>
       <te_map:Style>
