@@ -1,6 +1,6 @@
 {
 "type": "FeatureCollection",
-"name": "Points",
+"name": "points",
 "features": [
 { "type": "Feature", "properties": { "Local": "Campina Grande", "image": "CG-01" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.9810847, -7.2697949 ] ] } },
 { "type": "Feature", "properties": { "Local": "Campina Grande", "image": "CG-02" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.9675118, -7.2856464 ] ] } },

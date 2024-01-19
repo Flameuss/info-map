@@ -1,4 +1,3 @@
-import("gis")
 import("publish")
 
 
@@ -6,44 +5,35 @@ description = [[
   teste site campo!
 ]]
 
-Project {
-  title = "site campo",
-  author = "NEXUS",
-  file = "campo002.tview",
-  clean = true,
-  Points = "campo-002.shp",
-}
-
 Application {
   key = "AIzaSyA1coAth-Bo7m99rnxOm2oOBB88AmaSbOk",
   project = "campo002.tview",
   base = "roadmap",
   description = description,
   output = "/home/luis/Ti/Inpe/new-webmapping/campo/sitecampo",
-  order = { "Points" },
   template = { navbar = "darkblue", title = "white" },
   display = false,
 
-  Points = View {
-    description = "Coberturas",
+  points = View {
+    missing = 1,
+    description = "localidades visitadas",
     select = "Local",
     icon = "flag",
-    label = "locais",
+    label = "ponto de coleta",
 
     report = function(cell)
-      local report = Report {
-            title = cell.titulo,
+      local mreport = Report {
+        title = "Ponto de Coleta de Solo e Vegetação",         -- "name" is an attribute of object
+        author = "NEXUS"
       }
-      local text = ""
-      -- Descricao = [[<h3>Descrição:</h3> input description here!]]
 
-      text = "Local: " ..cell.Local..", id: "..cell.fid.."."
+      local text = "Local: " ..cell.Local.. ", id: " ..cell.fid.."."
 
-      report:addText(text)
-      report:addImage("photos/"..cell.image..".png")
+      mreport:addText(text)
+      mreport:addImage("photos/"..cell.image..".png")
 
 
-      return report
+      return mreport
     end
   }
 }
