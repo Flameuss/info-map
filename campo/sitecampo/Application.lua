@@ -11,7 +11,7 @@ Project {
   author = "NEXUS",
   file = "campo.tview",
   clean = true,
-  Points = "campo.shp",
+  Points = "campo-02.shp",
 }
 
 Application {
@@ -40,7 +40,7 @@ Application {
       text = "Local: " ..cell.Local..", id: "..cell.fid.."."
 
       report:addText(text)
-      report:addImage("photos/"..cell.Image..".png")
+      report:addImage("photos/"..cell.image..".png")
 
 
       return report
