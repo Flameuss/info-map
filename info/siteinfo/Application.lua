@@ -31,7 +31,7 @@ Application {
     label = "locais",
 
     report = function(cell)
-      local mreport = Report {
+      local report = Report {
             title = "Coleta de solo de ",
             author = "NEXUS",
       }
@@ -41,11 +41,11 @@ Application {
 
       text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. "."
 
-      mreport:addText(text)
+      report:addText(text)
       -- mreport:addImage("photos/"..cell.Fotografia..".jpg")
 
 
-      return mreport
+      return report
     end
   }
 }

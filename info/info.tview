@@ -6,7 +6,7 @@
   <Author>NEXUS</Author>
 
   <te_da:DataSourceList xmlns:te_common="http://www.terralib.org/schemas/common">
-    <te_da:DataSource access_driver="OGR" id="ef484638-bded-405b-ae24-e7dadd8df0f0" type="OGR">
+    <te_da:DataSource access_driver="OGR" id="e35e7658-e994-499f-9fef-85c380851ef6" type="OGR">
       <te_da:Title>Points</te_da:Title>
       <te_da:Description>Created on TerraME</te_da:Description>
       <te_da:URI>file%3A%2F%2F%2Fopt%2Flampp%2Fhtdocs%2Fnew-webmapping%2Finfo%2Finfo.shp</te_da:URI>
@@ -16,12 +16,12 @@
   <ComponentList/>
 
   <te_map:LayerList>
-    <te_map:DataSetLayer id="07aa0c56-5c05-41c9-90ea-d5bfed670a98">
+    <te_map:DataSetLayer id="c6870fdb-9ed3-4255-960f-b6bfeddf234d">
       <te_map:Title>Points</te_map:Title>
       <te_map:Visible>NOT_VISIBLE</te_map:Visible>
       <te_map:Encoding>ISO-8859-1</te_map:Encoding>
       <te_map:DataSetName>info</te_map:DataSetName>
-      <te_map:DataSourceId>ef484638-bded-405b-ae24-e7dadd8df0f0</te_map:DataSourceId>
+      <te_map:DataSourceId>e35e7658-e994-499f-9fef-85c380851ef6</te_map:DataSourceId>
       <te_map:SRSInfo>
         <te_map:SRID>4326</te_map:SRID>
         <te_map:Proj4>+proj=longlat +datum=WGS84 +no_defs</te_map:Proj4>
