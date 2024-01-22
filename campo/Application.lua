@@ -6,12 +6,12 @@ Project {
   author = "NEXUS",
   file = "campo001.tview",
   clean = true,
-  points = "campo-001.shp",
+  points = "campo_001.shp",
 }
 
 
 description = [[
-  teste site campo  teste 03!
+  teste site campo  teste 04!
 ]]
 
 Application {
@@ -26,23 +26,23 @@ Application {
   points = View {
     missing = 1,
     description = "localidades visitadas",
-    select = "Local",
+    select = "Ponto",
     icon = "flag",
     label = "ponto de coleta",
 
     report = function(cell)
-      local mreport = Report {
+      local report = Report {
         title = "Ponto de Coleta de Solo e Vegetação",         -- "name" is an attribute of object
         author = "NEXUS"
       }
 
-      local text = "Local: " ..cell.Local.. ", id: " ..cell.fidd.."."
+      local text = "Local: " ..cell.Local.. ", id: " ..cell.fid.."."
 
-      mreport:addText(text)
-      mreport:addImage("photos/"..cell.image..".png")
+      report:addText(text)
+      report:addImage("photos/"..cell.Fotografia..".png")
 
 
-      return mreport
+      return report
     end
   }
 }
