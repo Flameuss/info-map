@@ -1,8 +1,17 @@
 import("publish")
+import("gis")
+
+Project {
+  title = "site campo",
+  author = "NEXUS",
+  file = "campo001.tview",
+  clean = true,
+  points = "campo-001.shp",
+}
 
 
 description = [[
-  teste site campo  teste 02!
+  teste site campo  teste 03!
 ]]
 
 Application {
@@ -27,7 +36,7 @@ Application {
         author = "NEXUS"
       }
 
-      local text = "Local: " ..cell.Local.. ", id: " ..cell.fid.."."
+      local text = "Local: " ..cell.Local.. ", id: " ..cell.fidd.."."
 
       mreport:addText(text)
       mreport:addImage("photos/"..cell.image..".png")
