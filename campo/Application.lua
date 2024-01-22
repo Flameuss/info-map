@@ -19,7 +19,7 @@ Application {
   project = "campo001.tview",
   base = "roadmap",
   description = description,
-  output = "C:\\Users\\luish\\Documents\\new-webmapping\\campo\\sitecampo",
+  output = "/home/luis/Ti/Inpe/new-webmapping/campo/sitecampo",
   template = { navbar = "darkblue", title = "white" },
   display = false,
 

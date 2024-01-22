@@ -1,48 +1,44 @@
-import("gis")
 import("publish")
-
-
-description = [[
-  descrição do site info!!
-]]
+import("gis")
 
 Project {
   title = "site-info",
   author = "NEXUS",
   file = "info.tview",
   clean = true,
-  Points = "info.shp",
+  points = "info.shp",
 }
+
+description = [[
+  descrição do site info!!
+]]
 
 Application {
   key = "AIzaSyA1coAth-Bo7m99rnxOm2oOBB88AmaSbOk",
   project = "info.tview",
   base = "roadmap",
   description = description,
-  output = "/opt/lampp/htdocs/new-webmapping/info/siteinfo",
-  order = { "Points" },
+  output = "/home/luis/Ti/Inpe/new-webmapping/info/siteinfo",
   template = { navbar = "darkblue", title = "white" },
   display = false,
 
-  Points = View {
-    description = "Cobertura",
-    select = "Local",
+  points = View {
+    missing =1,
+    description = "localidades visitadas",
+    select = "Ponto",
     icon = "flag",
-    label = "locais",
+    label = "ponto de coleta",
 
     report = function(cell)
       local report = Report {
-            title = "Coleta de solo de ",
-            author = "NEXUS",
+        title = "Ponto de Coleta de Solo e Vegetação",
+        author = "NEXUS"
       }
 
-      -- Descricao = [[<h3>Descrição:</h3> input description here!]]
-      local text = ""
-
-      text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. "."
+      local text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. ", id: " .. cell.Ponto .."."
 
       report:addText(text)
-      -- mreport:addImage("photos/"..cell.Fotografia..".jpg")
+      report:addImage("photos/"..cell.Fotografia..".jpg")
 
 
       return report
