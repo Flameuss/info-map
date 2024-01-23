@@ -36,7 +36,7 @@ Application {
         author = "NEXUS"
       }
 
-      local text = "Local: <b>" .. cell.Local .. "</b><br>Id:<b> " .. cell.fid .. "</b>."
+      local text = "Local: <b>" .. cell.Local .. "</b><br>Id:<b> " .. cell.fid .. "</b>"
 
       report:addText(text)
       report:addImage("photos/"..cell.Fotografia..".png")
