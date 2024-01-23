@@ -19,13 +19,13 @@ Application {
   project = "campo001.tview",
   base = "roadmap",
   description = description,
-  output = "C:\\Users\\luish\\Documents\\new-webmapping\\campo\\sitecampo",
+  output = "/home/luis/Ti/Inpe/new-webmapping/campo/sitecampo",
   template = { navbar = "darkblue", title = "white" },
   display = false,
 
   points = View {
     missing = 1,
-    description = "localidades visitadas",
+    description = "Localidades visitadas",
     select = "Ponto",
     icon = "flag",
     label = "ponto de coleta",
@@ -36,7 +36,7 @@ Application {
         author = "NEXUS"
       }
 
-      local text = "Local: " ..cell.Local.. ", id: " ..cell.fid.."."
+      local text = "Local: <b>" .. cell.Local .. "</b><br>Id:<b> " .. cell.fid .. "</b>."
 
       report:addText(text)
       report:addImage("photos/"..cell.Fotografia..".png")

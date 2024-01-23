@@ -24,7 +24,7 @@ Application {
 
   points = View {
     missing =1,
-    description = "localidades visitadas",
+    description = "Localidades visitadas",
     select = "Ponto",
     icon = "flag",
     label = "ponto de coleta",
@@ -35,7 +35,7 @@ Application {
         author = "NEXUS"
       }
 
-      local text = "Local: " .. cell.Local .. "<br>tipo: " .. cell.Cobertura .. ", id: " .. cell.Ponto .."."
+      local text = "Local: <b>" .. cell.Local .. "</b><br>tipo: <b>" .. cell.Cobertura .. "</b><br>Id:<b> " .. cell.Ponto .."</b>."
 
       report:addText(text)
       report:addImage("photos/"..cell.Fotografia..".jpg")
