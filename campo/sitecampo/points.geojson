@@ -2,7 +2,7 @@
 "type": "FeatureCollection",
 "name": "points",
 "features": [
-{ "type": "Feature", "properties": { "Local": "Campina Grande", "Ponto": "1", "Foto01": "CG01", "Foto02": "CG02", "Foto03": "CG03" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.976314, -7.2806 ] ] } },
-{ "type": "Feature", "properties": { "Local": "Barreiras", "Ponto": "2", "Foto01": "BAR01", "Foto02": "BAR02", "Foto03": "BAR03" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -45.022222, -12.146944 ] ] } }
+{ "type": "Feature", "properties": { "Local": "Campina Grande", "Ponto": "1", "Foto01": "CG01", "Foto02": "CG02", "Foto03": "CG03", "Tbio": "Caatinga" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -35.976314, -7.2806 ] ] } },
+{ "type": "Feature", "properties": { "Local": "Barreiras", "Ponto": "2", "Foto01": "BAR01", "Foto02": "BAR02", "Foto03": "BAR03", "Tbio": "Cerrado" }, "geometry": { "type": "MultiPoint", "coordinates": [ [ -45.022222, -12.146944 ] ] } }
 ]
 }

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no" ?>
 <Project version="5.5.1" xmlns="http://www.terralib.org/schemas/qt/af" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:te_da="http://www.terralib.org/schemas/dataaccess" xmlns:te_map="http://www.terralib.org/schemas/maptools" xmlns:te_qt_af="http://www.terralib.org/schemas/common/af" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:schemaLocation="http://www.terralib.org/schemas/qt/af /home/luis/terrame/bin/share/terralib/schemas/terralib/qt/af/project.xsd">
 
-  <Title>site campo</Title>
+  <Title>Coleta de amostras de solo, planta e água para análise isotópica de água e análise granulométrica do solo nos biomas Caatinga / Cerrado.</Title>
 
   <Author>NEXUS</Author>
 
   <te_da:DataSourceList xmlns:te_common="http://www.terralib.org/schemas/common">
-    <te_da:DataSource access_driver="OGR" id="7fcb6c13-2b28-4ff6-a2c1-a3b5433c7a1c" type="OGR">
+    <te_da:DataSource access_driver="OGR" id="c8ffcd6c-961a-4f9f-89b3-2dd84e10efc1" type="OGR">
       <te_da:Title>points</te_da:Title>
       <te_da:Description>Created on TerraME</te_da:Description>
       <te_da:URI>file%3A%2F%2F%2Fhome%2Fluis%2FTi%2FInpe%2Fnew-webmapping%2Fcampo%2Fcampo_001.shp</te_da:URI>
@@ -16,12 +16,12 @@
   <ComponentList/>
 
   <te_map:LayerList>
-    <te_map:DataSetLayer id="3594f10b-b2ed-49f3-be64-faa41b4fc172">
+    <te_map:DataSetLayer id="ee41b3d0-83c2-4da7-aa83-5e49d23a1ef7">
       <te_map:Title>points</te_map:Title>
       <te_map:Visible>NOT_VISIBLE</te_map:Visible>
       <te_map:Encoding>ISO-8859-1</te_map:Encoding>
       <te_map:DataSetName>campo_001</te_map:DataSetName>
-      <te_map:DataSourceId>7fcb6c13-2b28-4ff6-a2c1-a3b5433c7a1c</te_map:DataSourceId>
+      <te_map:DataSourceId>c8ffcd6c-961a-4f9f-89b3-2dd84e10efc1</te_map:DataSourceId>
       <te_map:SRSInfo>
         <te_map:SRID>4674</te_map:SRID>
         <te_map:Proj4>+proj=longlat +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +no_defs</te_map:Proj4>
