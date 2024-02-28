@@ -39,14 +39,14 @@ Application {
       if cell.fid == 0 then
 
       title =
-        [[Dois trabalhos de campo, realizados entre os dias 28 e 29/04/2022 (estação úmida), e 29/11 e 04/12/2022 (estação seca), na Estação Experimental Miguel Arraes - Instituto Nacional do Semiárido (INSA), no município de Campina Grande-PB, representando o bioma Caatinga.
+        [[Dois trabalhos de campo, realizados entre os dias 28 e 29/04/2022 (estação úmida), e 29/11 e 04/12/2022 (estação seca), na Estação Experimental Miguel Arraes - Instituto Nacional do Semiárido (INSA), no município de Campina Grande-PB, representam o bioma Caatinga.
       Foram realizadas coletas de amostras de solo, planta e água (corpos hídricos da área e chuva), com o objetivo de caracterizar o estado hídrico e os mecanismos de uso da água pelas plantas por meio do uso de isótopos estáveis da água, a fim de avaliar a variabilidade sazonal (estação chuvosa x estação seca) na separação ecohidrológica nesse bioma, além de realizar a análise granulométrica do solo.</br>
         Onze (11) espécies de plantas lenhosas comuns e representativas da região foram selecionadas para o estudo. Foram amostrados três indivíduos de cada uma das espécies em cada uma das estações do ano, totalizando 66 árvores amostradas. O diâmetro à altura do peito (DAP) de todas as plantas amostradas foi medido. Nas proximidades da área onde as amostras de plantas foram coletadas, cavas de solo foram abertas em três localidades (para efeito de triplicata), em cada uma das campanhas de campo. Nessas cavas, amostras de solo foram coletadas a cada 10 cm, até uma profundidade de 100 cm (ou até a profundidade máxima atingida no local).</br>]]
 
       else
 
         title =
-        [[Dois trabalhos de campo realizados entre os dias 21 e 27/07/2022 (estação seca) e 06 e 11/02/2023 (estação úmida), no campus da Universidade Federal do Oeste da Bahia (UFOB), no município de Barreiras-BA, representando o bioma Cerrado.
+        [[Dois trabalhos de campo realizados entre os dias 21 e 27/07/2022 (estação seca) e 06 e 11/02/2023 (estação úmida), no campus da Universidade Federal do Oeste da Bahia (UFOB), no município de Barreiras-BA, representam o bioma Cerrado.
         Foram realizadas coletas de amostras de solo, planta e água (corpos hídricos da área e chuva), com o objetivo de caracterizar o estado hídrico e os mecanismos de uso da água pelas plantas por meio do uso de isótopos estáveis da água, a fim de avaliar a variabilidade sazonal (estação chuvosa x estação seca) na separação ecohidrológica nesse bioma, além de realizar a análise granulométrica do solo.</br>
         Dez (10) espécies de plantas lenhosas comuns e representativas da região foram selecionadas para o estudo. Foram amostrados três indivíduos de cada uma das espécies em cada uma das estações do ano, totalizando 60 árvores amostradas. O diâmetro à altura do peito (DAP) de todas as plantas amostradas foi mensurado. Nas proximidades da área onde as amostras de plantas foram coletadas, cavas de solo foram abertas em três localidades (para efeito de triplicata), em cada uma das campanhas de campo. Nessas cavas, amostras de solo foram coletadas a cada 10 cm, até uma profundidade de 100 cm (ou até a profundidade máxima atingida no local).</br>]]
       end
