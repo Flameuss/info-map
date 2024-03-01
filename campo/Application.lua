@@ -11,7 +11,7 @@ Project {
 
 
 description = [[
-  Este trabalho de campo foi realizado pelo pesquisador <b>Rafael Costa Pinheiro</b>, bolsista de pós-doutorado da Fundação de Amparo à Pesquisa do Estado de São Paulo <b>(FAPESP - Processo #2020/14046-6)</b>, sob supervisão da pesquisadora <b>Laura De Simone Borma</b>, do INPE, no contexto do Projeto Temático <b>Nexus (FAPESP - Processo #2017/22269-2)</b>.Pesquisadores, alunos de pós-graduação e colaboradores de campo do INSA, além de um docente da UFCG, em Campina Grande, e docentes e alunos do curso de biologia da UFOB, em Barreiras,  auxiliaram na seleção das áreas de estudo, na procura e na seleção das espécies amostradas e também na coleta dos dados em campo.<br>
+  Este trabalho de campo foi realizado pelo pesquisador <b>Rafael Costa Pinheiro</b>, bolsista de pós-doutorado da Fundação de Amparo à Pesquisa do Estado de São Paulo <b>(FAPESP - Processo #2020/14046-6)</b>, sob supervisão da pesquisadora <b>Laura De Simone Borma</b>, do INPE, no contexto do Projeto Temático <b>Nexus (FAPESP - Processo #2017/22269-2)</b>. Pesquisadores, alunos de pós-graduação e colaboradores de campo do INSA, além de um docente da UFCG, em Campina Grande, e docentes e alunos do curso de biologia da UFOB, em Barreiras,  auxiliaram na seleção das áreas de estudo, na procura e na seleção das espécies amostradas e também na coleta dos dados em campo.<br>
 ]]
 
 Application {
